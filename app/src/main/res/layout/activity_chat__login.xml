@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_chat__login"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.askme.comfort.chat.Chat_Login">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Your Email Address"
+        android:textSize="25sp"
+        android:id="@+id/TextView_Email_Address"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_below="@id/TextView_Email_Address"
+        android:inputType="textEmailAddress"
+        android:textSize="20sp"
+        android:id="@+id/EditText_Email_Address"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Your Password"
+        android:textSize="25sp"
+        android:layout_below="@id/EditText_Email_Address"
+        android:id="@+id/TextView_Password"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_below="@id/TextView_Password"
+        android:textSize="20sp"
+        android:inputType="textPassword"
+        android:id="@+id/EditText_Password"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="Login"
+        android:layout_below="@id/EditText_Password"
+        android:id="@+id/Button_Login"
+        android:textSize="20sp"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="Forgot Password"
+        android:layout_below="@id/Button_Login"
+        android:textSize="20sp"
+        android:id="@+id/Button_Forgot_Password"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Button_Forgot_Password"
+        android:text="Don't have account? Create one."
+        android:textSize="20sp"
+        android:layout_marginTop="20dp"
+        android:textColor="@android:color/black"
+        android:id="@+id/TextView_Create_Account"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/TextView_Status"
+        android:textSize="20sp"
+        android:layout_below="@id/TextView_Create_Account"
+        android:textColor="#ff0000"/>
+
+
+</RelativeLayout>

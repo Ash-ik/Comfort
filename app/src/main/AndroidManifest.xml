@@ -1,0 +1,60 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.askme.comfort">
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"></uses-permission>
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/comfort_temp_icon"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme">
+
+<activity android:name=".homeActivity">
+    <intent-filter>
+        <action android:name="android.intent.action.MAIN"/>
+        <category android:name="android.intent.category.LAUNCHER"/>
+    </intent-filter>
+</activity>
+        <activity android:name=".blindHomeActivity"></activity>
+        <activity android:name=".musicPlayerForBlind"></activity>
+        <activity android:name=".callerForBlind"></activity>
+        <activity android:name=".alarmForBlind"></activity>
+
+        <activity android:name=".chat.Chat_Panel">
+
+    </activity>
+
+    <activity android:label="Comfort Chat : Login" android:name=".chat.Chat_Login"/>
+
+    <activity android:label="Comfort Chat : Login Selection" android:name=".chat.Chat_Login_Selection"/>
+
+    <activity android:label="Comfort Chat : Account Creation" android:name=".chat.Chat_Account_Creation"/>
+
+
+    <service android:name=".chat.Chat_Instance_Service" android:exported="false">
+
+
+    <intent-filter>
+
+    <action android:name="com.google.firebase.INSTANCE_ID_EVENT"/>
+
+</intent-filter>
+
+</service>
+
+
+    <service android:name=".chat.Chat_Messanging_Service" android:exported="false">
+
+
+    <intent-filter>
+
+    <action android:name="com.google.firebase.MESSAGING_EVENT"/>
+
+</intent-filter>
+
+</service>
+
+
+    </application>
+
+</manifest>

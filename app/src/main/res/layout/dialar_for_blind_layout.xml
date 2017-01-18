@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/dialarForBlind"
+    android:background="@android:color/white"
+    android:layout_margin="5dip">
+
+    <EditText android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:id="@+id/phone_number"
+        android:layout_marginTop="140dp"
+        android:layout_marginBottom="20dp"
+        android:maxLines="1"
+        android:textSize="33sp"
+        android:gravity="center"
+        android:inputType="number"
+        android:textColor="@android:color/black"
+        android:layout_gravity="center"
+        android:textColorHint="@android:color/black"
+        android:clickable="false"
+        android:focusableInTouchMode="false"
+        android:editable="true"
+        android:cursorVisible="true">
+    </EditText>
+
+    <LinearLayout android:layout_width="fill_parent"
+        android:gravity="center"
+        android:layout_height="wrap_content"
+        android:padding="2dp">
+        <Button
+            android:clickable="false"
+            android:id="@+id/button1"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:text="1"
+            android:layout_marginRight="20dp"
+            android:textColor="@android:color/widget_edittext_dark"
+            android:textSize="20dp"
+            android:background="@drawable/button_bg_round"
+            android:src="@android:color/transparent" />
+
+
+        <Button
+            android:clickable="false"
+            android:id="@+id/button2"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginRight="20dp"
+            android:text="2"
+            android:textColor="@android:color/widget_edittext_dark"
+            android:textSize="20dp"
+            android:background="@drawable/button_bg_round"
+            android:layout_gravity="center"
+            android:src="@android:color/transparent" />
+
+
+
+        <Button
+            android:clickable="false"
+            android:id="@+id/button3"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/button_bg_round"
+            android:text="3"
+            android:textColor="@android:color/widget_edittext_dark"
+            android:textSize="20dp"
+            android:layout_gravity="center"
+            android:src="@android:color/transparent" />
+
+
+    </LinearLayout>
+
+    <LinearLayout android:layout_width="fill_parent"
+        android:gravity="center"
+        android:layout_height="wrap_content"
+        android:padding="2dp">
+        <Button
+            android:clickable="false"
+            android:id="@+id/button4"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:text="4"
+            android:layout_marginRight="20dp"
+            android:textColor="@android:color/widget_edittext_dark"
+            android:textSize="20dp"
+            android:background="@drawable/button_bg_round"
+            android:src="@android:color/transparent" />
+
+
+        <Button
+            android:clickable="false"
+            android:id="@+id/button5"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginRight="20dp"
+            android:text="5"
+            android:textColor="@android:color/widget_edittext_dark"
+            android:textSize="20dp"
+            android:background="@drawable/button_bg_round"
+            android:layout_gravity="center"
+            android:src="@android:color/transparent" />
+
+
+
+        <Button
+            android:clickable="false"
+            android:id="@+id/button6"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/button_bg_round"
+            android:text="6"
+            android:textColor="@android:color/widget_edittext_dark"
+            android:textSize="20dp"
+            android:layout_gravity="center"
+            android:src="@android:color/transparent" />
+
+
+    </LinearLayout>
+    <LinearLayout android:layout_width="fill_parent"
+        android:gravity="center"
+        android:padding="2dp"
+        android:layout_height="wrap_content">
+        <Button
+            android:clickable="false"
+            android:id="@+id/button7"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:text="7"
+            android:layout_marginRight="20dp"
+            android:textColor="@android:color/widget_edittext_dark"
+            android:textSize="20dp"
+            android:background="@drawable/button_bg_round"
+            android:src="@android:color/transparent" />
+
+
+        <Button
+            android:clickable="false"
+            android:id="@+id/button8"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginRight="20dp"
+            android:text="8"
+            android:textColor="@android:color/widget_edittext_dark"
+            android:textSize="20dp"
+            android:background="@drawable/button_bg_round"
+            android:layout_gravity="center"
+            android:src="@android:color/transparent" />
+
+
+
+        <Button
+            android:clickable="false"
+            android:id="@+id/button9"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/button_bg_round"
+            android:text="9"
+            android:textColor="@android:color/widget_edittext_dark"
+            android:textSize="20dp"
+            android:layout_gravity="center"
+            android:src="@android:color/transparent" />
+
+
+    </LinearLayout>
+    <LinearLayout android:layout_width="fill_parent"
+        android:gravity="center"
+        android:padding="2dp"
+        android:layout_height="wrap_content">
+        <Button
+            android:clickable="false"
+            android:id="@+id/buttonAstar"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:text="*"
+            android:layout_marginRight="20dp"
+            android:textColor="@android:color/widget_edittext_dark"
+            android:textSize="20dp"
+            android:background="@drawable/button_bg_round"
+            android:src="@android:color/transparent" />
+
+
+        <Button
+            android:clickable="false"
+            android:id="@+id/button0"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginRight="20dp"
+            android:text="0"
+            android:textColor="@android:color/widget_edittext_dark"
+            android:textSize="20dp"
+            android:background="@drawable/button_bg_round"
+            android:layout_gravity="center"
+            android:src="@android:color/transparent" />
+
+
+
+        <Button
+            android:clickable="false"
+            android:id="@+id/buttonHash"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/button_bg_round"
+            android:text="#"
+            android:textColor="@android:color/widget_edittext_dark"
+            android:textSize="20dp"
+            android:layout_gravity="center"
+            android:src="@android:color/transparent" />
+
+
+    </LinearLayout>
+
+    <LinearLayout android:layout_width="match_parent"
+        android:gravity="center"
+        android:layout_marginTop="15dp"
+        android:layout_height="wrap_content">
+        <Button
+            android:clickable="false"
+            android:id="@+id/buttonCall"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:background="@drawable/call_blind"
+            android:src="@android:color/transparent" />
+
+    </LinearLayout>
+
+</LinearLayout>

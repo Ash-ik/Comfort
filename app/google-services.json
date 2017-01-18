@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "974538071549",
+    "firebase_url": "https://comfort-ed201.firebaseio.com",
+    "project_id": "comfort-ed201",
+    "storage_bucket": "comfort-ed201.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:974538071549:android:789b3edb3b830e94",
+        "android_client_info": {
+          "package_name": "com.askme.comfort"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "974538071549-aq1593cdskd71lbp2m5207ob314db66h.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCb0WMEy8CHZ0THaNR50HDv13y-U_qW5GA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

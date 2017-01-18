@@ -1,0 +1,59 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/blindLayoutID"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#25272d">
+
+    <TextView
+        android:id="@+id/textViewSong"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:textColor="@android:color/white"
+        android:textSize="22sp"
+        android:maxLines="1"
+        android:text="Rock With You"
+        android:gravity="center|top"
+        android:layout_marginTop="50dp"/>
+
+
+    <info.abdolahi.CircularMusicProgressBar
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/albam_cover"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_gravity="center"
+        android:layout_centerInParent="true"
+        android:src="@drawable/dummy_cover_photo"
+        app:border_color="#00796B"
+        app:border_width="4dp"
+        app:centercircle_diammterer="1"
+        app:progress_color="#FFFFFF"
+        app:progress_startAngle="40" />
+
+
+    <TextView
+        android:id="@+id/textViewSinger"
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:maxLines="2"
+        android:textColor="#FFFFFF"
+        android:textSize="15sp"
+        android:text="Michael Jackson\nABCD"
+        android:layout_marginTop="6dp"
+        android:gravity="center|top"
+        android:layout_below="@+id/textViewSong"
+        android:layout_centerHorizontal="true" />
+
+    <Chronometer
+        android:id="@+id/chronometer"
+        android:format="%s"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:layout_below="@+id/albam_cover"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/white"
+        android:textSize="40sp"/>
+</RelativeLayout>

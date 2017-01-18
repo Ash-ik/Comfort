@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_chat__account__creation"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.askme.comfort.chat.Chat_Account_Creation">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Your Email Address"
+        android:id="@+id/TextView_AC_Email_Address"
+        android:textSize="20sp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:id="@+id/EditText_AC_Email_Address"
+        android:layout_below="@id/TextView_AC_Email_Address"
+        android:textSize="20sp"
+        android:inputType="textEmailAddress"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Your Password"
+        android:id="@+id/TextView_AC_Password"
+        android:layout_below="@id/EditText_AC_Email_Address"
+        android:textSize="20sp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:id="@+id/EditText_AC_Password"
+        android:layout_below="@id/TextView_AC_Password"
+        android:textSize="20sp"
+        android:inputType="textPassword"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Confirm Password"
+        android:id="@+id/TextView_AC_Confirm_Password"
+        android:layout_below="@id/EditText_AC_Password"
+        android:textSize="20sp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:id="@+id/EditText_AC_Confirm_Password"
+        android:layout_below="@id/TextView_AC_Confirm_Password"
+        android:textSize="20sp"
+        android:inputType="textPassword"></EditText>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Write the Captcha"
+        android:id="@+id/TextView_AC_Write_Captcha"
+        android:layout_below="@id/EditText_AC_Confirm_Password"
+        android:textSize="20sp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/TextView_AC_Captcha"
+        android:text="Captcha"
+        android:layout_below="@id/TextView_AC_Write_Captcha"
+        android:textSize="20sp"
+        android:textAlignment="center"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:id="@+id/EditText_AC_Captcha"
+        android:layout_below="@id/TextView_AC_Captcha"
+        android:textSize="20sp"
+        android:inputType="textPassword"></EditText>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="Create Account"
+        android:textSize="20sp"
+        android:id="@+id/Button_Create_Account"
+        android:layout_below="@id/EditText_AC_Captcha"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/TextView_AC_Status"
+        android:textSize="20sp"
+        android:layout_below="@id/Button_Create_Account"
+        android:textColor="#FFF00000"/>
+</RelativeLayout>
